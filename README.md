@@ -64,7 +64,3 @@ En Windows:
 ```bash
 gradlew.bat assembleDebug
 ```
-
-## Proyecto
-
-BreakBuddy fue desarrollado en equipo como una aplicación Android orientada al bienestar, la interacción social y la participación dentro de grupos y organizaciones.
