@@ -49,18 +49,22 @@ Firebase se utiliza como backend para autenticaci처n, persistencia de informaci�
 ### Configuraci처n
 
 1. Clonar el repositorio.
-
 2. Abrir el proyecto en Android Studio.
-
 3. Configurar un proyecto de Firebase compatible con la aplicaci처n.
-
-4. Agregar el archivo:
-
-   `app/google-services.json`
-
+4. Agregar el archivo `app/google-services.json`.
 5. Sincronizar las dependencias de Gradle.
-
 6. Ejecutar la aplicaci처n desde Android Studio o mediante:
 
 ```bash
 ./gradlew assembleDebug
+```
+
+En Windows:
+
+```bash
+gradlew.bat assembleDebug
+```
+
+## Proyecto
+
+BreakBuddy fue desarrollado en equipo como una aplicaci처n Android orientada al bienestar, la interacci처n social y la participaci처n dentro de grupos y organizaciones.
