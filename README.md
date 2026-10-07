@@ -1,28 +1,30 @@
-# BreakBuddy
+# BreakBuddy — Android App
 
-Aplicación móvil Android desarrollada en equipo para fomentar pausas activas, interacción social y bienestar dentro de organizaciones.
+Android application developed as a team project to support active breaks, social interaction, and well-being within organizations.
 
-La aplicación permite a los usuarios autenticarse, gestionar su perfil, participar en grupos, realizar check-ins y actividades, comunicarse mediante chat y recibir notificaciones.
+Users can authenticate, manage their profile, participate in groups, complete check-ins and activities, communicate through chat, and receive notifications.
 
-## Funcionalidades principales
+## Features
 
-- Registro e inicio de sesión.
-- Autenticación con Google.
-- Gestión de perfil e intereses.
-- Creación, unión y administración de grupos.
-- Chat entre integrantes.
-- Check-ins y actividades.
-- Misiones y dinámicas de participación.
-- Notificaciones push.
-- Gestión de organizaciones y usuarios.
-- Persistencia y sincronización de datos mediante Firebase.
+- User registration and login
+- Google Sign-In
+- Profile and interest management
+- Group creation and membership
+- Group administration
+- Group chat
+- Check-ins and activities
+- Missions and engagement mechanics
+- Push notifications
+- Organization and user management
+- Firebase-backed data synchronization
 
-## Tecnologías
+## Tech Stack
 
 - Kotlin
 - Android SDK
 - AndroidX
-- ViewModel y LiveData
+- ViewModel
+- LiveData
 - Jetpack Navigation
 - View Binding
 - Firebase Authentication
@@ -31,35 +33,40 @@ La aplicación permite a los usuarios autenticarse, gestionar su perfil, partici
 - Google Sign-In
 - Gradle
 
-## Arquitectura
+## Architecture
 
-El proyecto separa la lógica de acceso a datos mediante repositorios para usuarios, grupos y organizaciones, mientras que las pantallas utilizan ViewModels y componentes de AndroidX para gestionar el estado y la navegación.
+Data-access logic is organized through repositories for users, groups, and organizations.
 
-Firebase se utiliza como backend para autenticación, persistencia de información y notificaciones.
+The UI uses ViewModels and AndroidX components to manage application state and navigation.
 
-## Ejecución
+Firebase provides authentication, persistence, synchronization, and push-notification services.
 
-### Requisitos
+## Requirements
 
 - Android Studio
 - JDK 11
 - Android SDK 35
-- Dispositivo o emulador con Android 7.0 (API 24) o superior
+- Android 7.0 / API 24 or newer
 
-### Configuración
+## Setup
 
-1. Clonar el repositorio.
-2. Abrir el proyecto en Android Studio.
-3. Configurar un proyecto de Firebase compatible con la aplicación.
-4. Agregar el archivo `app/google-services.json`.
-5. Sincronizar las dependencias de Gradle.
-6. Ejecutar la aplicación desde Android Studio o mediante:
+Clone the repository and open it in Android Studio.
+
+Configure a compatible Firebase project and add:
+
+```text
+app/google-services.json
+```
+
+Then synchronize the Gradle dependencies.
+
+Build the debug application with:
 
 ```bash
 ./gradlew assembleDebug
 ```
 
-En Windows:
+On Windows:
 
 ```bash
 gradlew.bat assembleDebug
