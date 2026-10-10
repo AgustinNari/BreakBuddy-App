@@ -4,6 +4,33 @@ Android application developed as a team project to support active breaks, social
 
 Users can authenticate, manage their profile, participate in groups, complete check-ins and activities, communicate through chat, and receive notifications.
 
+## Screenshots
+
+Selected screens from a development build show onboarding, the home dashboard, daily missions, group chat, gamified challenges, and configurable reminders. Click any image to view it at full resolution.
+
+<table>
+  <tr>
+    <th>Welcome &amp; Sign-in</th>
+    <th>Home Dashboard</th>
+    <th>Daily Missions</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="docs/screenshots/welcome.webp"><img src="docs/screenshots/welcome.webp" alt="BreakBuddy welcome screen with burnout awareness and sign-in options" width="255"></a></td>
+    <td align="center"><a href="docs/screenshots/home.webp"><img src="docs/screenshots/home.webp" alt="BreakBuddy home screen with well-being test and daily micro-missions" width="255"></a></td>
+    <td align="center"><a href="docs/screenshots/missions.webp"><img src="docs/screenshots/missions.webp" alt="Daily missions with streak, progress indicators and completed tasks" width="255"></a></td>
+  </tr>
+  <tr>
+    <th>Group Chat</th>
+    <th>Challenge Wheel</th>
+    <th>Reminders</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="docs/screenshots/group-chat.webp"><img src="docs/screenshots/group-chat.webp" alt="Group chat displaying a message, suggested activity and completed challenge" width="255"></a></td>
+    <td align="center"><a href="docs/screenshots/challenge-wheel.webp"><img src="docs/screenshots/challenge-wheel.webp" alt="Gamified challenge wheel showing a selected challenge and action buttons" width="255"></a></td>
+    <td align="center"><a href="docs/screenshots/reminders.webp"><img src="docs/screenshots/reminders.webp" alt="Configurable hydration, food and mobility reminders with time windows" width="255"></a></td>
+  </tr>
+</table>
+
 ## Features
 
 - User registration and login
